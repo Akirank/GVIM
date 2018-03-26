@@ -1,0 +1,2 @@
+set prompt = '%c]$ ' 
+alias precmd 'echo -n "\033]0;`pwd `\a"'  
