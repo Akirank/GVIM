@@ -1,2 +1,5 @@
 set prompt = '%c]$ ' 
 alias precmd 'echo -n "\033]0;`pwd `\a"'  
+
+To add the lsit of commands inside a file
+sed -i '/^\.options/r insert.txt' tcss_soc_level0_upf.list // wherever .options will be there below to that the insert.txt data will be appeneded
