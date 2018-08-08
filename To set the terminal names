@@ -6,3 +6,6 @@ sed -i '/^\.options/r insert.txt' tcss_soc_level0_upf.list // wherever .options 
 
 To list only Directories
 ls -d */
+
+/// TO get current filename and path
+:echo @%
