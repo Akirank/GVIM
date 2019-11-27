@@ -1,0 +1,2 @@
+Command TO copy the folders execept one folder
+rsync -av --progress --exclude="dir2" ostechnix/ backup/ 
